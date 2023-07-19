@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0A28BFA2A68300000C78906 /* InnerSightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A28BF92A68300000C78906 /* InnerSightApp.swift */; };
+		D0A28BFC2A68300000C78906 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A28BFB2A68300000C78906 /* ContentView.swift */; };
+		D0A28BFE2A68300200C78906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A28BFD2A68300200C78906 /* Assets.xcassets */; };
+		D0A28C012A68300200C78906 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A28C002A68300200C78906 /* Preview Assets.xcassets */; };
+		D0A28C0B2A68300200C78906 /* InnerSightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A28C0A2A68300200C78906 /* InnerSightTests.swift */; };
+		D0A28C152A68300200C78906 /* InnerSightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A28C142A68300200C78906 /* InnerSightUITests.swift */; };
+		D0A28C172A68300200C78906 /* InnerSightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A28C162A68300200C78906 /* InnerSightUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0A28C072A68300200C78906 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0A28BEE2A68300000C78906 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0A28BF52A68300000C78906;
+			remoteInfo = InnerSight;
+		};
+		D0A28C112A68300200C78906 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0A28BEE2A68300000C78906 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0A28BF52A68300000C78906;
+			remoteInfo = InnerSight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0A28BF62A68300000C78906 /* InnerSight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InnerSight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A28BF92A68300000C78906 /* InnerSightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerSightApp.swift; sourceTree = "<group>"; };
+		D0A28BFB2A68300000C78906 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0A28BFD2A68300200C78906 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0A28C002A68300200C78906 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0A28C062A68300200C78906 /* InnerSightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InnerSightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A28C0A2A68300200C78906 /* InnerSightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerSightTests.swift; sourceTree = "<group>"; };
+		D0A28C102A68300200C78906 /* InnerSightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InnerSightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A28C142A68300200C78906 /* InnerSightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerSightUITests.swift; sourceTree = "<group>"; };
+		D0A28C162A68300200C78906 /* InnerSightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerSightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0A28BF32A68300000C78906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A28C032A68300200C78906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A28C0D2A68300200C78906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0A28BED2A68300000C78906 = {
+			isa = PBXGroup;
+			children = (
+				D0A28BF82A68300000C78906 /* InnerSight */,
+				D0A28C092A68300200C78906 /* InnerSightTests */,
+				D0A28C132A68300200C78906 /* InnerSightUITests */,
+				D0A28BF72A68300000C78906 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0A28BF72A68300000C78906 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0A28BF62A68300000C78906 /* InnerSight.app */,
+				D0A28C062A68300200C78906 /* InnerSightTests.xctest */,
+				D0A28C102A68300200C78906 /* InnerSightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0A28BF82A68300000C78906 /* InnerSight */ = {
+			isa = PBXGroup;
+			children = (
+				D0A28BF92A68300000C78906 /* InnerSightApp.swift */,
+				D0A28BFB2A68300000C78906 /* ContentView.swift */,
+				D0A28BFD2A68300200C78906 /* Assets.xcassets */,
+				D0A28BFF2A68300200C78906 /* Preview Content */,
+			);
+			path = InnerSight;
+			sourceTree = "<group>";
+		};
+		D0A28BFF2A68300200C78906 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D0A28C002A68300200C78906 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0A28C092A68300200C78906 /* InnerSightTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0A28C0A2A68300200C78906 /* InnerSightTests.swift */,
+			);
+			path = InnerSightTests;
+			sourceTree = "<group>";
+		};
+		D0A28C132A68300200C78906 /* InnerSightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0A28C142A68300200C78906 /* InnerSightUITests.swift */,
+				D0A28C162A68300200C78906 /* InnerSightUITestsLaunchTests.swift */,
+			);
+			path = InnerSightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0A28BF52A68300000C78906 /* InnerSight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0A28C1A2A68300200C78906 /* Build configuration list for PBXNativeTarget "InnerSight" */;
+			buildPhases = (
+				D0A28BF22A68300000C78906 /* Sources */,
+				D0A28BF32A68300000C78906 /* Frameworks */,
+				D0A28BF42A68300000C78906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InnerSight;
+			productName = InnerSight;
+			productReference = D0A28BF62A68300000C78906 /* InnerSight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0A28C052A68300200C78906 /* InnerSightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0A28C1D2A68300200C78906 /* Build configuration list for PBXNativeTarget "InnerSightTests" */;
+			buildPhases = (
+				D0A28C022A68300200C78906 /* Sources */,
+				D0A28C032A68300200C78906 /* Frameworks */,
+				D0A28C042A68300200C78906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0A28C082A68300200C78906 /* PBXTargetDependency */,
+			);
+			name = InnerSightTests;
+			productName = InnerSightTests;
+			productReference = D0A28C062A68300200C78906 /* InnerSightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0A28C0F2A68300200C78906 /* InnerSightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0A28C202A68300200C78906 /* Build configuration list for PBXNativeTarget "InnerSightUITests" */;
+			buildPhases = (
+				D0A28C0C2A68300200C78906 /* Sources */,
+				D0A28C0D2A68300200C78906 /* Frameworks */,
+				D0A28C0E2A68300200C78906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0A28C122A68300200C78906 /* PBXTargetDependency */,
+			);
+			name = InnerSightUITests;
+			productName = InnerSightUITests;
+			productReference = D0A28C102A68300200C78906 /* InnerSightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0A28BEE2A68300000C78906 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					D0A28BF52A68300000C78906 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					D0A28C052A68300200C78906 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = D0A28BF52A68300000C78906;
+					};
+					D0A28C0F2A68300200C78906 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = D0A28BF52A68300000C78906;
+					};
+				};
+			};
+			buildConfigurationList = D0A28BF12A68300000C78906 /* Build configuration list for PBXProject "InnerSight" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0A28BED2A68300000C78906;
+			productRefGroup = D0A28BF72A68300000C78906 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0A28BF52A68300000C78906 /* InnerSight */,
+				D0A28C052A68300200C78906 /* InnerSightTests */,
+				D0A28C0F2A68300200C78906 /* InnerSightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0A28BF42A68300000C78906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A28C012A68300200C78906 /* Preview Assets.xcassets in Resources */,
+				D0A28BFE2A68300200C78906 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A28C042A68300200C78906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A28C0E2A68300200C78906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0A28BF22A68300000C78906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A28BFC2A68300000C78906 /* ContentView.swift in Sources */,
+				D0A28BFA2A68300000C78906 /* InnerSightApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A28C022A68300200C78906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A28C0B2A68300200C78906 /* InnerSightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A28C0C2A68300200C78906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A28C152A68300200C78906 /* InnerSightUITests.swift in Sources */,
+				D0A28C172A68300200C78906 /* InnerSightUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0A28C082A68300200C78906 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0A28BF52A68300000C78906 /* InnerSight */;
+			targetProxy = D0A28C072A68300200C78906 /* PBXContainerItemProxy */;
+		};
+		D0A28C122A68300200C78906 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0A28BF52A68300000C78906 /* InnerSight */;
+			targetProxy = D0A28C112A68300200C78906 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D0A28C182A68300200C78906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0A28C192A68300200C78906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0A28C1B2A68300200C78906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InnerSight/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = InnerSight.InnerSight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0A28C1C2A68300200C78906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InnerSight/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = InnerSight.InnerSight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0A28C1E2A68300200C78906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = InnerSight.InnerSightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InnerSight.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InnerSight";
+			};
+			name = Debug;
+		};
+		D0A28C1F2A68300200C78906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = InnerSight.InnerSightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InnerSight.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InnerSight";
+			};
+			name = Release;
+		};
+		D0A28C212A68300200C78906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = InnerSight.InnerSightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InnerSight;
+			};
+			name = Debug;
+		};
+		D0A28C222A68300200C78906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = InnerSight.InnerSightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InnerSight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0A28BF12A68300000C78906 /* Build configuration list for PBXProject "InnerSight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A28C182A68300200C78906 /* Debug */,
+				D0A28C192A68300200C78906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0A28C1A2A68300200C78906 /* Build configuration list for PBXNativeTarget "InnerSight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A28C1B2A68300200C78906 /* Debug */,
+				D0A28C1C2A68300200C78906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0A28C1D2A68300200C78906 /* Build configuration list for PBXNativeTarget "InnerSightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A28C1E2A68300200C78906 /* Debug */,
+				D0A28C1F2A68300200C78906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0A28C202A68300200C78906 /* Build configuration list for PBXNativeTarget "InnerSightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A28C212A68300200C78906 /* Debug */,
+				D0A28C222A68300200C78906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0A28BEE2A68300000C78906 /* Project object */;
+}
