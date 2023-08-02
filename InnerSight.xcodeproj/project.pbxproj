@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D06074A82A7A2EC100B13211 /* StarsBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06074A72A7A2EC100B13211 /* StarsBackground.swift */; };
+		D06074AA2A7A57EE00B13211 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06074A92A7A57EE00B13211 /* SignUpViewModel.swift */; };
+		D099DFB72A793AED005F5622 /* TipComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D099DFB62A793AED005F5622 /* TipComponent.swift */; };
+		D099DFB92A793E3F005F5622 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D099DFB82A793E3F005F5622 /* UserManager.swift */; };
+		D099DFC02A794513005F5622 /* NameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D099DFBF2A794513005F5622 /* NameView.swift */; };
+		D099DFC22A795C9F005F5622 /* PageControlComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D099DFC12A795C9F005F5622 /* PageControlComponent.swift */; };
 		D0A28BFA2A68300000C78906 /* InnerSightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A28BF92A68300000C78906 /* InnerSightApp.swift */; };
 		D0A28BFE2A68300200C78906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A28BFD2A68300200C78906 /* Assets.xcassets */; };
 		D0A28C012A68300200C78906 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A28C002A68300200C78906 /* Preview Assets.xcassets */; };
 		D0A28C0B2A68300200C78906 /* InnerSightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A28C0A2A68300200C78906 /* InnerSightTests.swift */; };
 		D0A28C152A68300200C78906 /* InnerSightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A28C142A68300200C78906 /* InnerSightUITests.swift */; };
 		D0A28C172A68300200C78906 /* InnerSightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A28C162A68300200C78906 /* InnerSightUITestsLaunchTests.swift */; };
+		D0A9704F2A73E8C500B16A1F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9704E2A73E8C500B16A1F /* HomeView.swift */; };
+		D0A970542A73EBF000B16A1F /* BackgroundComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A970532A73EBF000B16A1F /* BackgroundComponent.swift */; };
+		D0A970562A74038D00B16A1F /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A970552A74038D00B16A1F /* Extentions.swift */; };
 		D0B7DB952A72F9CC0072B52D /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = D0B7DB942A72F9CC0072B52D /* Realm */; };
 		D0B7DB972A72F9CC0072B52D /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D0B7DB962A72F9CC0072B52D /* RealmSwift */; };
 		D0B7DB992A72F9F20072B52D /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B7DB982A72F9F20072B52D /* RealmManager.swift */; };
@@ -41,6 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D06074A72A7A2EC100B13211 /* StarsBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsBackground.swift; sourceTree = "<group>"; };
+		D06074A92A7A57EE00B13211 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		D099DFB62A793AED005F5622 /* TipComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipComponent.swift; sourceTree = "<group>"; };
+		D099DFB82A793E3F005F5622 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		D099DFBF2A794513005F5622 /* NameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameView.swift; sourceTree = "<group>"; };
+		D099DFC12A795C9F005F5622 /* PageControlComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlComponent.swift; sourceTree = "<group>"; };
 		D0A28BF62A68300000C78906 /* InnerSight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InnerSight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A28BF92A68300000C78906 /* InnerSightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerSightApp.swift; sourceTree = "<group>"; };
 		D0A28BFD2A68300200C78906 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,6 +65,9 @@
 		D0A28C102A68300200C78906 /* InnerSightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InnerSightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A28C142A68300200C78906 /* InnerSightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerSightUITests.swift; sourceTree = "<group>"; };
 		D0A28C162A68300200C78906 /* InnerSightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerSightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0A9704E2A73E8C500B16A1F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D0A970532A73EBF000B16A1F /* BackgroundComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundComponent.swift; sourceTree = "<group>"; };
+		D0A970552A74038D00B16A1F /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		D0B7DB982A72F9F20072B52D /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		D0B7DB9B2A7347250072B52D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D0B7DB9F2A734EE00072B52D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +103,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D099DFBA2A79444D005F5622 /* StartView */ = {
+			isa = PBXGroup;
+			children = (
+				D0B7DBA12A734F330072B52D /* StartView.swift */,
+				D099DFBF2A794513005F5622 /* NameView.swift */,
+				D099DFBB2A79445E005F5622 /* StartComponents */,
+				D06074A92A7A57EE00B13211 /* SignUpViewModel.swift */,
+			);
+			path = StartView;
+			sourceTree = "<group>";
+		};
+		D099DFBB2A79445E005F5622 /* StartComponents */ = {
+			isa = PBXGroup;
+			children = (
+				D0B7DBA32A73624B0072B52D /* InfiniteCarouselView.swift */,
+				D099DFC12A795C9F005F5622 /* PageControlComponent.swift */,
+			);
+			path = StartComponents;
+			sourceTree = "<group>";
+		};
+		D099DFBC2A7944A6005F5622 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				D0A9704E2A73E8C500B16A1F /* HomeView.swift */,
+				D099DFBD2A7944BB005F5622 /* HomeComponents */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		D099DFBD2A7944BB005F5622 /* HomeComponents */ = {
+			isa = PBXGroup;
+			children = (
+				D099DFB62A793AED005F5622 /* TipComponent.swift */,
+			);
+			path = HomeComponents;
+			sourceTree = "<group>";
+		};
 		D0A28BED2A68300000C78906 = {
 			isa = PBXGroup;
 			children = (
@@ -108,12 +163,14 @@
 		D0A28BF82A68300000C78906 /* InnerSight */ = {
 			isa = PBXGroup;
 			children = (
+				D0A970522A73EBE200B16A1F /* Components */,
 				D0B7DB9A2A7345F10072B52D /* Models */,
 				D0B7DB922A72F8480072B52D /* Managers */,
 				D0B7DB912A72F83E0072B52D /* Views */,
+				D0A970552A74038D00B16A1F /* Extentions.swift */,
 				D0A28BF92A68300000C78906 /* InnerSightApp.swift */,
-				D0A28BFD2A68300200C78906 /* Assets.xcassets */,
 				D0A28BFF2A68300200C78906 /* Preview Content */,
+				D0A28BFD2A68300200C78906 /* Assets.xcassets */,
 			);
 			path = InnerSight;
 			sourceTree = "<group>";
@@ -143,12 +200,21 @@
 			path = InnerSightUITests;
 			sourceTree = "<group>";
 		};
+		D0A970522A73EBE200B16A1F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D0A970532A73EBF000B16A1F /* BackgroundComponent.swift */,
+				D06074A72A7A2EC100B13211 /* StarsBackground.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		D0B7DB912A72F83E0072B52D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D099DFBA2A79444D005F5622 /* StartView */,
+				D099DFBC2A7944A6005F5622 /* HomeView */,
 				D0B7DB9F2A734EE00072B52D /* ContentView.swift */,
-				D0B7DBA12A734F330072B52D /* StartView.swift */,
-				D0B7DBA32A73624B0072B52D /* InfiniteCarouselView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -157,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				D0B7DB982A72F9F20072B52D /* RealmManager.swift */,
+				D099DFB82A793E3F005F5622 /* UserManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -307,13 +374,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D099DFC02A794513005F5622 /* NameView.swift in Sources */,
 				D0B7DB9C2A7347250072B52D /* User.swift in Sources */,
+				D06074AA2A7A57EE00B13211 /* SignUpViewModel.swift in Sources */,
+				D099DFB72A793AED005F5622 /* TipComponent.swift in Sources */,
+				D0A970542A73EBF000B16A1F /* BackgroundComponent.swift in Sources */,
+				D099DFC22A795C9F005F5622 /* PageControlComponent.swift in Sources */,
+				D099DFB92A793E3F005F5622 /* UserManager.swift in Sources */,
 				D0B7DBA22A734F330072B52D /* StartView.swift in Sources */,
+				D0A970562A74038D00B16A1F /* Extentions.swift in Sources */,
 				D0B7DBA42A73624B0072B52D /* InfiniteCarouselView.swift in Sources */,
 				D0A28BFA2A68300000C78906 /* InnerSightApp.swift in Sources */,
 				D0B7DBA02A734EE00072B52D /* ContentView.swift in Sources */,
+				D0A9704F2A73E8C500B16A1F /* HomeView.swift in Sources */,
 				D0B7DB992A72F9F20072B52D /* RealmManager.swift in Sources */,
 				D0B7DBA62A7363230072B52D /* Tab.swift in Sources */,
+				D06074A82A7A2EC100B13211 /* StarsBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +548,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"InnerSight/Preview Content\"";
+				DEVELOPMENT_TEAM = 83496JHU82;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -500,6 +577,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"InnerSight/Preview Content\"";
+				DEVELOPMENT_TEAM = 83496JHU82;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

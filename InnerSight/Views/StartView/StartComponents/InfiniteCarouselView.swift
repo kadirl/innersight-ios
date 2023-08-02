@@ -18,56 +18,56 @@ struct InfiniteCarouselView: View{
     
     @State var genericTabs: [Tab] = []
     
+    @State var height: CGFloat = 0
+    
     var body: some View{
         
         TabView(selection: $fakeIndex) {
             
             ForEach(genericTabs){tab in
-                
-                // Card View...
-                VStack(alignment: .leading, spacing: 12){
-                    Image(systemName: tab.icon)
-                        .padding([.top, .leading])
-                        .font(.title)
-                        .bold()
-                        .foregroundColor(.indigo)
-                    
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text(tab.title)
-                            .font(.headline.bold())
-                            .foregroundColor(.primary)
+//                GeometryReader { geometry in
+                    VStack(alignment: .leading, spacing: 12){
+                        Image(systemName: tab.icon)
+                            .padding([.top, .leading])
+                            .font(.title)
+                            .bold()
+                            .foregroundColor(.indigo)
                         
-                        Text(tab.description)
-                            .foregroundColor(.secondary)
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text(tab.title)
+                                .font(.headline.bold())
+                                .foregroundColor(.primary)
+                            
+                            Text(tab.description)
+                                .foregroundColor(.secondary)
+                        }
+                        .padding([.bottom, .leading])
                     }
-                    .padding([.bottom, .leading])
-                }
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .background(.thinMaterial)
-                .cornerRadius(13)
-                .padding(16)
-                .overlay(
-                    GeometryReader{proxy in
-                        Color.clear
-                            .preference(key: OffsetKey.self, value: proxy.frame(in: .global).minX)
-                            .onPreferenceChange(OffsetKey.self, perform: { offset in
-                                self.offset = (offset.remainder(dividingBy: proxy.size.width))
-                            })
-                    }
-                )
-                .tag(getIndex(tab: tab))
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .background(.thinMaterial)
+                    .cornerRadius(13)
+                    .padding(16)
+                    .overlay(
+                        GeometryReader{proxy in
+                            Color.clear
+                                .preference(key: OffsetKey.self, value: proxy.frame(in: .global).minX)
+                                .onPreferenceChange(OffsetKey.self, perform: { offset in
+                                    self.offset = (offset.remainder(dividingBy: proxy.size.width))
+                                })
+                        }
+                    )
+                    .tag(getIndex(tab: tab))
+//                    .onAppear {
+//                        height = max(height, CGFloat(Int(geometry.size.height)))
+//                        print("HEIGHT: \(height)")
+//                    }
+//                }
             }
         }
         .tabViewStyle(.page(indexDisplayMode: .never))
         .onChange(of: offset) { newValue in
             
-            // Logic...
-            // Add First Item to last and when ever content is scrolled to last just scroll back to first without animation
-            // Add Last Item to first and do the same
-            // So it will create Infinite Carousel Type Animation...
-            
-            // To avoid glitch...
-            // Updating after user released...
+
             print(offset,fakeIndex)
             if fakeIndex == 0 && offset == 0{
                 // moving to last  - 1..
@@ -102,7 +102,6 @@ struct InfiniteCarouselView: View{
         }
         // Updating Real Time...
         .onChange(of: tabs) { newValue in
-            
             
             genericTabs = tabs
             
