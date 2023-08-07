@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    var hasSignedUp: Bool
+    
     var body: some View {
         
-        var hasRegistered = UserDefaults.standard.bool(forKey: "hasRegistered")
+//        var hasSignedUp = UserDefaults.standard.bool(forKey: "hasSignedUp")
         
-        if hasRegistered {
+        
+        if hasSignedUp {
             TabView {
                 HomeView()
                     .tabItem {
@@ -21,12 +24,12 @@ struct ContentView: View {
                 
                 HomeView()
                     .tabItem {
-                        Label("Home", systemImage: "house.fill")
+                        Label("Journal", systemImage: "list.clipboard.fill")
                     }
                 
-                HomeView()
+                SettingsView()
                     .tabItem {
-                        Label("Home", systemImage: "house.fill")
+                        Label("Settings", systemImage: "gear")
                     }
             }
         } else {
@@ -37,7 +40,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(hasSignedUp: false)
             .preferredColorScheme(.dark)
     }
 }

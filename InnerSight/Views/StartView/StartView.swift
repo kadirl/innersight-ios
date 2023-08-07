@@ -84,15 +84,15 @@ struct StartView: View {
                 }
                 .padding()
                 
-            }
-            .frame(maxHeight: .infinity, alignment: .top)
-            .background(
                 NavigationLink(
                     destination: NameView(),
                     isActive: $isNextViewActive,
                     label: { EmptyView() }
                 )
-            )
+                .hidden()
+                
+            }
+            .frame(maxHeight: .infinity, alignment: .top)
             .background(
                 StarsBackground(starsOpacity: 1, colorOpacity: 1),
                 alignment: .top

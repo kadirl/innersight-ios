@@ -7,6 +7,15 @@
 
 import SwiftUI
 
+
+struct Tab: Identifiable, Hashable {
+    var id = UUID().uuidString
+    var icon: String
+    var title: String
+    var description: String
+}
+
+
 struct InfiniteCarouselView: View{
     // Tabs...
     @Binding var tabs: [Tab]
@@ -68,7 +77,7 @@ struct InfiniteCarouselView: View{
         .onChange(of: offset) { newValue in
             
 
-            print(offset,fakeIndex)
+//            print(offset,fakeIndex)
             if fakeIndex == 0 && offset == 0{
                 // moving to last  - 1..
                 fakeIndex = genericTabs.count - 2

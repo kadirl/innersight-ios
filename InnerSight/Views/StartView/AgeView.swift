@@ -8,53 +8,50 @@
 import SwiftUI
 
 
-struct NameView: View {
+struct AgeView: View {
     
-    @ObservedObject var SignUpVM = SignupViewModel()
+    @ObservedObject var SignUpVM: SignupViewModel
     
     @State var text: String = ""
-    @State var emptyNameAlert: Bool = false
-    @State var longNameAlert: Bool = false
+    @State var showingAlert: Bool = false
     
     @State private var isNextViewActive = false
+    
     
     var body: some View {
         NavigationStack {
             VStack(alignment: .leading) {
                 
-                Text("Let’s Introduce!\nWhat is your name?")
+                Text("How old are you?")
                     .font(.largeTitle)
                     .bold()
                     .padding(.bottom, 24.0)
                 
-                HStack {
-                    Image(systemName: "person.fill")
-                    TextField("Your name", text: $SignUpVM.username)
-                        .autocapitalization(.words)
+                Spacer()
+                
+                Picker("Please choose your age", selection: $SignUpVM.age) {
+                    ForEach(13...99, id: \.self) { age in
+                        Text(String(age))
+                            .font(.title)
+                    }
                 }
-                .padding()
+                .pickerStyle(.wheel)
                 .background(.ultraThinMaterial.blendMode(.luminosity))
-                .background(Color(red: 0.5, green: 0.5, blue: 0.5).opacity(0.5).blendMode(.luminosity))
                 .cornerRadius(12)
                 
                 Spacer()
                 
                 Button {
-                    if SignUpVM.isUsernameEntered() && SignUpVM.isUsernameLengthValid() {
+                    if SignUpVM.isAgeValid() {
                         isNextViewActive = true
-                    } else if !SignUpVM.isUsernameEntered() {
-                        emptyNameAlert = true
-                    } else if !SignUpVM.isUsernameLengthValid() {
-                        longNameAlert = true
+                    } else {
+                        showingAlert = true
                     }
                 } label: {
                     Text("Continue")
                         .frame(maxWidth: .infinity)
                 }
-                .alert("Your name can't be empty. Please fill the field.", isPresented: $emptyNameAlert) {
-                    Button("OK") { }
-                }
-                .alert("Your name can't be longer than 64 character.", isPresented: $longNameAlert) {
+                .alert("You must be 13 years or older.", isPresented: $showingAlert) {
                     Button("OK") { }
                 }
                 .buttonStyle(.borderedProminent)
@@ -72,7 +69,7 @@ struct NameView: View {
             )
             
             NavigationLink(
-                destination: AgeView(SignUpVM: SignUpVM),
+                destination: GoalsView(SignUpVM: SignUpVM),
                 isActive: $isNextViewActive,
                 label: { EmptyView() }
             )
@@ -82,7 +79,7 @@ struct NameView: View {
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItem(placement: .principal) {
-                PageControl(currentPageIndex: 0, numberOfPages: 3)
+                PageControl(currentPageIndex: 1, numberOfPages: 3)
                     .padding(10)
                     .disabled(true)
                     .frame(width: 64)
@@ -92,9 +89,9 @@ struct NameView: View {
 }
 
 
-struct NameView_Previews: PreviewProvider {
+struct DobView_Previews: PreviewProvider {
     static var previews: some View {
-        NameView()
+        AgeView(SignUpVM: SignupViewModel())
             .preferredColorScheme(.dark)
     }
 }

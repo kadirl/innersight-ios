@@ -11,7 +11,7 @@ import SwiftUI
 struct InnerSightApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(hasSignedUp: false)
                 .preferredColorScheme(.dark)
         }
     }
